@@ -9,10 +9,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        int varAddTwo = add(4,5);
+        int varAddTwo = add(4, 5);
         System.out.println(varAddTwo);
 
-        int varAddFour = add(4,5,6,7);
+        int varAddFour = add(4, 5, 6, 7);
         System.out.println(varAddFour);
 
         String varMorningGreeting = morningGreeting("Anne Hathaway");
@@ -33,6 +33,7 @@ public class Main {
         double varRoundNegative = roundNegativeValueToNearestInteger(-10.8);
         System.out.println(varRoundNegative);
     }
+}
 
     // 1. add
     public static int add(int a, int b){
@@ -46,12 +47,12 @@ public class Main {
 
     // 3. morningGreeting
     public static String morningGreeting(String name){
-        return "早上好，" + name + "!";
+        return "早上好, " + name + "!";
     }
 
     // 4. afternoonGreeting
     public static String afternoonGreeting(String name){
-        return "下午好，" + name + "!";
+        return "下午好, " + name + "!";
     }
 
     // 5. triple
@@ -71,6 +72,6 @@ public class Main {
 
     // 8. roundNegativeValueToNearestInteger
     public static double roundNegativeValueToNearestInteger(double negVal){
-        return (double) Math.round(negVal);
+        return (int) (negVal - 0.5);
     }
-}
+
