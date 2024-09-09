@@ -33,45 +33,45 @@ public class Main {
         double varRoundNegative = roundNegativeValueToNearestInteger(-10.8);
         System.out.println(varRoundNegative);
     }
-}
+
 
     // 1. add
-    public static int add(int a, int b){
+    public static int add(int a, int b) {
         return a + b;
     }
 
     // 2. add
-    public static int add(int a, int b, int c, int d){
+    public static int add(int a, int b, int c, int d) {
         return a + b + c + d;
     }
 
     // 3. morningGreeting
-    public static String morningGreeting(String name){
+    public static String morningGreeting(String name) {
         return "早上好, " + name + "!";
     }
 
     // 4. afternoonGreeting
-    public static String afternoonGreeting(String name){
+    public static String afternoonGreeting(String name) {
         return "下午好, " + name + "!";
     }
 
     // 5. triple
-    public static String triple(String phrase){
+    public static String triple(String phrase) {
         return phrase + phrase + phrase;
     }
 
     // 6. half
-    public static double half(double number){
+    public static double half(double number) {
         return number / 2;
     }
 
     // 7. roundPositiveValueToNearestInteger
-    public static double roundPositiveValueToNearestInteger(double posVal){
+    public static double roundPositiveValueToNearestInteger(double posVal) {
         return (double) Math.round(posVal);
     }
 
     // 8. roundNegativeValueToNearestInteger
-    public static double roundNegativeValueToNearestInteger(double negVal){
+    public static double roundNegativeValueToNearestInteger(double negVal) {
         return (int) (negVal - 0.5);
     }
-
+}
